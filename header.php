@@ -31,7 +31,9 @@
         <!-- <button class="search-button" type="submit"><i class="fa fa-search"></i></button> -->
       </form>
       
-      <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
+      <div class="social">
+        <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
+      </div>
       
       <button class="btn-danger"><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
       
