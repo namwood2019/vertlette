@@ -4,7 +4,7 @@ Theme URI: https://www.vertlette.com
 Author: Quy Nam Nguyen
 */
 
-#shopping-cart a {
+#shopping-cart .fa {
   margin-right: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
