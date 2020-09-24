@@ -31,7 +31,7 @@
         <!-- <button class="search-button" type="submit"><i class="fa fa-search"></i></button> -->
       </form>
 
-      <button class="btn-danger"><a href="#">Login</a></button>
+      <button class="btn-danger"><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
       
       <button class="btn-dark"><a href="#">Logout</a></button>
     </nav>
