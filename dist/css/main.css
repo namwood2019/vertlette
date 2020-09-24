@@ -26,11 +26,9 @@ ul {
 .is-active {
   color: #333333;
   background-color: #f4f4f4; }
-
 .is-error {
   color: #333;
   background-color: #FF0000; }
-
 .is-warning {
   color: #f4f4f4;
   background-color: #ffbc00; }
@@ -55,15 +53,12 @@ h1 {
 .btn-main {
   color: #333;
   background-color: #ffbc00; }
-
 .btn-light {
   color: #333;
   background-color: #f4f4f4; }
-
 .btn-dark {
   color: #f4f4f4;
   background-color: #333333; }
-
 .btn-danger {
   color: #f4f4f4;
   background-color: #FF0000; }
@@ -76,15 +71,12 @@ input[class^='btn-']:hover {
 .bg-main {
   background: #ffbc00;
   color: #fff; }
-
 .bg-dark {
   background: #333333;
   color: #fff; }
-
 .bg-light {
   background: #f4f4f4;
   color: #000; }
-
 .bg-medium {
   background: #cccccc;
   color: #000; }
@@ -94,31 +86,24 @@ input[class^='btn-']:hover {
 
 .p-1 {
   padding: 1rem; }
-
 .p-2 {
   padding: 2rem; }
 
 .py-1 {
   padding: 1rem 0; }
-
 .py-2 {
   padding: 2rem 0; }
-
 .py-3 {
   padding: 3rem 0; }
-
 .py-4 {
   padding: 4rem 0; }
 
 .my-1 {
   margin: 1rem 0; }
-
 .my-2 {
   margin: 2rem 0; }
-
 .my-3 {
   margin: 3rem 0; }
-
 .my-4 {
   margin: 4rem 0; }
 
@@ -146,7 +131,7 @@ input[class^='btn-']:hover {
 
 header {
   background: #333333;
-  height: 45px;
+  height: 110px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
   padding: 1rem 0;
   font-size: small; }
@@ -220,25 +205,21 @@ header {
     #home-a .specials .fa {
       color: #ffbc00;
       padding-bottom: 0.4rem; }
-
 #home-b {
   background: url("../../img/homepage/nouvelles.jpg") no-repeat center right/cover;
   height: 450px;
   color: #fff;
   text-transform: capitalize; }
-
 #home-c {
   background: url("../../img/homepage/produits.jpg") no-repeat center right/cover;
   height: 450px;
   color: #fff;
   text-transform: capitalize; }
-
 #home-d {
   background: url("../../img/homepage/corporation.jpg") no-repeat center right/cover;
   height: 450px;
   color: #fff;
   text-transform: capitalize; }
-
 #home-f {
   height: 333px; }
   #home-f .process {
@@ -285,10 +266,8 @@ header {
   grid-template-areas: 'postimage post post';
   grid-gap: 1.2rem;
   padding: 1rem 0; }
-
 #news-b .post-image {
   grid-area: postimage; }
-
 #news-b .post-info-text {
   grid-area: post;
   padding: 0 1rem; }
@@ -298,10 +277,8 @@ header {
   text-align: center;
   height: 450px;
   color: #fff; }
-
 #shop-b .woocommerce ul.products {
   width: 450px !important; }
-
 #shop-b .woocommerce ul.products li.product a img {
   width: 450px !important;
   height: auto;
@@ -309,7 +286,7 @@ header {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -325,17 +302,14 @@ header {
     height: 100px; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
-
 #contact-a button[type='submit'] {
   width: 50%; }
-
 #contact-b {
   background: #666666; }
   #contact-b .contact-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center; }
-
 #contact-c h1 {
   text-align: center;
   font-size: 4rem; }
