@@ -30,7 +30,9 @@
         <input class="search-input" type="text" name="s" placeholder="Search...">
         <!-- <button class="search-button" type="submit"><i class="fa fa-search"></i></button> -->
       </form>
-
+      
+      <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
+      
       <button class="btn-danger"><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
       
       <button class="btn-dark"><a href="#">Logout</a></button>
