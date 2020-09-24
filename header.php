@@ -31,7 +31,7 @@
         <!-- <button class="search-button" type="submit"><i class="fa fa-search"></i></button> -->
       </form>
       
-      <div class="social">
+      <div id="shopping-cart">
         <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
       </div>
       
