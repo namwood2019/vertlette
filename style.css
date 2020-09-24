@@ -4,7 +4,7 @@ Theme URI: https://www.vertlette.com
 Author: Quy Nam Nguyen
 */
 
-header #main-nav .myCart .fa {
+#main-nav .myCart .fa {
   margin-right: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
@@ -15,6 +15,6 @@ header #main-nav .myCart .fa {
   padding: 0.5rem;
 }
 
-header #main-nav .myCart .fa:hover {
+#main-nav .myCart .fa:hover {
   background: #ffbc00; 
 }
