@@ -6,6 +6,9 @@ require_once('widgets/class-wp-widget-categories.php');
 function load_css(){
   wp_register_style('stylesheet', get_template_directory_uri() . '/dist/css/main.css');
   wp_enqueue_style('stylesheet');
+  
+  wp_register_style('another_css', get_template_directory_uri() . './style.css');
+  wp_enqueue_style('another_css');
 }
 
 add_action('wp_enqueue_scripts', 'load_css');
