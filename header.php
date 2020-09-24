@@ -30,10 +30,14 @@
         <input class="search-input" type="text" name="s" placeholder="Search...">
         <!-- <button class="search-button" type="submit"><i class="fa fa-search"></i></button> -->
       </form>
-
-      <button class="btn-danger"><a href="#">Login</a></button>
       
-      <button class="btn-dark"><a href="#">Logout</a></button>
+      <div class="myCart">
+        <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
+      </div>
+      
+      <button class="btn-danger"><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
+      
+      <button class="btn-dark"><a href="<?php echo site_url('/wp-login.php?action=register'); ?>">Register</a></button>
     </nav>
   </div> 
 </header>

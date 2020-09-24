@@ -3,3 +3,18 @@ Theme Name: My Theme
 Theme URI: https://www.vertlette.com
 Author: Quy Nam Nguyen
 */
+
+#main-nav .myCart .fa {
+  margin-right: 1rem;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#main-nav .myCart .fa:hover {
+  background: #ffbc00; 
+}
