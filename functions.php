@@ -86,7 +86,7 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 function wpccp_woocommerce_before_shop_loop(){
   $html = '<h2 class="wpccp_featured_products_title">Boutique corporative</h2>
   <div class="wpccp_featured_products">'.
-    do_shortcode("[featured_products limit='8' columns='4']") . '</div>';
+    do_shortcode("[featured_products limit='8' columns='3']") . '</div>';
 
     $shop_page_id = get_option('woocommerce_shop_page_id');
     $thumbnail = get_the_post_thumbnail($shop_page_id);
