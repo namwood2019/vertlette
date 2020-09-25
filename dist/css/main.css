@@ -61,7 +61,9 @@ h1 {
   background-color: #333333; }
 .btn-danger {
   color: #f4f4f4;
-  background-color: #FF0000; }
+  background-color: #FF0000;
+  height: 100%; }
+
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
