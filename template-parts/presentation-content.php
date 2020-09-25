@@ -9,9 +9,9 @@ Template Name: Presentaion Page
 <!-- Section A: Gallery -->
 <section id="work-a" class="text-center py-3">
     <div class="container">
-      <h2 class="section-title">Monsieur Vertlette</h2>
+      <h2 class="section-title">Vertlette</h2>
       <div class="bottom-line"></div>
-      <h3 class="lead">La visionaire</h3>
+      <h3 class="lead">Le visionnaire</h3>
       <br/>
       <div class="items">
         <div class="item">
