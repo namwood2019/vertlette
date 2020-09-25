@@ -20,8 +20,9 @@
             <?php the_author(); ?>
           </a> | -->
           Catégory:
+          <strong>
           <?php 
-            <strong>$categories = get_the_category()</strong>;
+            $categories = get_the_category();
             $separator = ", ";
             $output = '';
 
@@ -33,6 +34,7 @@
 
             echo trim($output, $separator);
           ?>
+          </strong>
         </div>
         
         <?php the_excerpt(); ?>
