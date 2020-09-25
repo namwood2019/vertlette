@@ -18,3 +18,7 @@ Author: Quy Nam Nguyen
 #main-nav .myCart .fa:hover {
   background: #ffbc00; 
 }
+
+#main-nav button{
+  height: 100%;
+}
