@@ -32,7 +32,7 @@
         <a href="<?php echo site_url('/cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
       </div>
       
-      <button class="btn-danger btnok"><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
+      <button id="btnok" class="btn-danger "><a href="<?php echo site_url('/wp-login.php'); ?>">Login</a></button>
       
       <button class="btn-dark btnok"><a href="<?php echo site_url('/wp-login.php?action=register'); ?>">Register</a></button>
     </nav>
