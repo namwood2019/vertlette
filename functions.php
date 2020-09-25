@@ -81,3 +81,21 @@ function mytheme_add_woocommerce_support() {
 }
 
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+
+// Display featured products and a promotional banner on the Boutique/Shop Page
+function wpccp_woocommerce_before_shop_loop(){
+  $html = '<h2 class="wpccp_featured_products_title">Featured Products</h2>
+  <div class="wpccp_featured_products">'.
+    do_shortcode("[featured_products limit='8' columns='4']") . '</div>';
+
+    $shop_page_id = get_option('woocommerce_shop_page_id');
+    $thumbnail = get_the_post_thumbnail($shop_page_id);
+    $thumbnail_id = get_post_thumbnail_id($shop_page_id);
+    $link = get_permalink($thumbnail_id);
+    
+    $html .= '<div class="featured-image"><a href="' . $link . '">'. $thumbnail . '</a></div>';
+
+    echo $html;
+}
+
+add_action('woocommerce_before_shop_loop', 'wpccp_woocommerce_before_shop_loop', 5);
