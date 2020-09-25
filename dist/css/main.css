@@ -64,9 +64,9 @@ h1 {
   background-color: #FF0000;
   }
 
-  #btnokdanger, #btnokdark{
+  /* #btnokdanger, #btnokdark{
     height: 100% !important;
-  }
+  } */
 
 
 button[class^='btn-']:hover,
