@@ -21,7 +21,7 @@
           </a> | -->
           Catégory:
           <?php 
-            $categories = get_the_category();
+            <strong>$categories = get_the_category()</strong>;
             $separator = ", ";
             $output = '';
 
