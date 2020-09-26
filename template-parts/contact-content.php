@@ -13,6 +13,8 @@
       <div class="bottom-line"></div>
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <br/>
+      <div style="width: 100%"><iframe width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=600&amp;hl=en&amp;q=1660%20Boulevard%20de%20l'Entente,%20Qu%C3%A9bec,%20QC%20G1S%204S3+(Vertlette)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Driving Route Planner</a></div>
+      <br/>
       <form>
         <div class="text-fields">
           <input type="text" class="text-input name-input" placeholder="Nom">
