@@ -126,7 +126,7 @@ Template Name: Presentaion Page
     </div>
   </section>
    
-  <section>
+  <section class="text-center py-2">
     <div class="bottom-line"></div>
           <h3 class="lead">La renaissance</h3>
           <br/>
