@@ -127,9 +127,9 @@ Template Name: Presentaion Page
   </section>
    
   <section class="text-center py-2">
-    <div class="bottom-line"></div>
-          <h3 class="lead">La renaissance</h3>
-          <br/>
+    <div class="container">
+      <h3 class="lead">La renaissance</h3>
+      <div class="bottom-line"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et molestie ex. 
           Suspendisse et molestie mauris. Nam ultricies ornare aliquet. Nam euismod rhoncus 
           tortor, ac efficitur ipsum porttitor quis. Etiam magna turpis, gravida eu facilisis 
@@ -138,6 +138,7 @@ Template Name: Presentaion Page
           laoreet ullamcorper quam aliquam maximus. Integer luctus mauris id augue 
           eleifend, sed efficitur nisl pellentesque. Duis bibendum varius felis.</p>
       </div>
+    </div>
   </section>
 
 <?php get_footer(); ?>
