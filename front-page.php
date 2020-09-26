@@ -5,7 +5,7 @@
   <div class="container py-2">
     <h1>Vertlette</h1>
     <h2 class="section-title">
-      <a class="btn-light" href="<?php echo site_url('/presentation'); ?>">Notre Entreprise</a>
+      <a class="btn-light" href="<?php echo site_url('/Présentation'); ?>">Notre Entreprise</a>
     </h2>
     <div class="bottom-line"></div>
     <div class="specials">
