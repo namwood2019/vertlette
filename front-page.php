@@ -54,7 +54,7 @@
 <section id="home-d" class="text-center py-2">
   <div class="container">
     <h2 class="section-title">
-      <a class="btn-light" href="<?php echo site_url('/boutique'); ?>">Section Corporative</a>
+      <a class="btn-light" href="<?php echo site_url('/boutique'); ?>">Corporative</a>
     </h2>
   </div>
 </section>
