@@ -84,7 +84,7 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 // Display featured products and a promotional banner on the Boutique/Shop Page
 function wpccp_woocommerce_before_shop_loop(){
-  $html = '<h2 class="wpccp_featured_products_title">Boutique corporative</h2>
+  $html = '<h2 class="wpccp_featured_products_title"></h2>
   <div class="wpccp_featured_products">'.
     do_shortcode("[featured_products limit='8' columns='3']") . '</div>';
 
