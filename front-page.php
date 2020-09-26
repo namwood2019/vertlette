@@ -90,7 +90,7 @@
             <div class="process-step">3</div>
           </i>
         </a>
-        <h3>Québec (QC), Canada</h3>
+        <h3>Québec (QC), G1S-4S3, Canada</h3>
       </div>
     </div>
   </div>
