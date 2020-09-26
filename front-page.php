@@ -67,23 +67,29 @@
 
     <div class="process">
       <div>
-        <i class="fa fa-phone fa-4x process-icon my-2">
-          <div class="process-step">1</div>
-        </i>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-phone fa-4x process-icon my-2">
+            <div class="process-step">1</div>
+          </i>
+        </a>
         <h3>+1 (418) 555-5555</h3>
       </div>
 
       <div>
-        <i class="fa fa-envelope fa-4x process-icon my-2">
-          <div class="process-step">2</div>
-        </i>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-envelope fa-4x process-icon my-2">
+            <div class="process-step">2</div>
+          </i>
+        </a>
         <h3>info@vertlette.com</h3>
       </div>
 
       <div>
-        <i class="fa fa-address-card fa-4x process-icon my-2">
-          <div class="process-step">3</div>
-        </i>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-address-card fa-4x process-icon my-2">
+            <div class="process-step">3</div>
+          </i>
+        </a>
         <h3>Québec (QC), Canada</h3>
       </div>
     </div>
