@@ -9,9 +9,9 @@ Template Name: Presentaion Page
 <!-- Section A: Gallery -->
 <section id="work-a" class="text-center py-3">
     <div class="container">
-      <h2 class="section-title">Monsieur Vertlette</h2>
+      <h2 class="section-title">Vertlette</h2>
       <div class="bottom-line"></div>
-      <h3 class="lead">La visionaire</h3>
+      <h3 class="lead">Le visionnaire</h3>
       <br/>
       <div class="items">
         <div class="item">
@@ -122,6 +122,21 @@ Template Name: Presentaion Page
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+   
+  <section class="text-center py-2">
+    <div class="container">
+      <h3 class="lead">La renaissance</h3>
+      <div class="bottom-line"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et molestie ex. 
+          Suspendisse et molestie mauris. Nam ultricies ornare aliquet. Nam euismod rhoncus 
+          tortor, ac efficitur ipsum porttitor quis. Etiam magna turpis, gravida eu facilisis 
+          sed, bibendum eget quam. Integer eu pellentesque purus. Nulla eu est varius, 
+          fermentum risus eget, tristique nulla. Donec iaculis arcu metus, 
+          laoreet ullamcorper quam aliquam maximus. Integer luctus mauris id augue 
+          eleifend, sed efficitur nisl pellentesque. Duis bibendum varius felis.</p>
       </div>
     </div>
   </section>

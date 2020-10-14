@@ -14,12 +14,7 @@
       <div class="post-info-text">
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         <div class="meta">
-          Posted at <?php the_date('l jS \of F Y h:i:s A'); ?>
-          by 
-          <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
-            <?php the_author(); ?>
-          </a> |
-          Posted in
+          Catégory:
           <?php 
             $categories = get_the_category();
             $separator = ", ";

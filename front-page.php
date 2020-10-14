@@ -5,7 +5,7 @@
   <div class="container py-2">
     <h1>Vertlette</h1>
     <h2 class="section-title">
-      <a class="btn-light" href="<?php echo site_url('/company'); ?>">Notre Entreprise 2020202020</a>
+      <a class="btn-light" href="<?php echo site_url('/presentation'); ?>">Notre Entreprise</a>
     </h2>
     <div class="bottom-line"></div>
     <div class="specials">
@@ -54,7 +54,7 @@
 <section id="home-d" class="text-center py-2">
   <div class="container">
     <h2 class="section-title">
-      <a class="btn-light" href="<?php echo site_url('/boutique'); ?>">Section Corporative</a>
+      <a class="btn-light" href="<?php echo site_url('/boutique'); ?>">Corporative</a>
     </h2>
   </div>
 </section>
@@ -67,24 +67,30 @@
 
     <div class="process">
       <div>
-        <i class="fa fa-phone fa-4x process-icon my-2">
-          <div class="process-step">1</div>
-        </i>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-phone fa-4x process-icon my-2">
+            <div class="process-step">1</div>
+          </i>
+        </a>
         <h3>+1 (418) 555-5555</h3>
       </div>
 
       <div>
-        <i class="fa fa-envelope fa-4x process-icon my-2">
-          <div class="process-step">2</div>
-        </i>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-envelope fa-4x process-icon my-2">
+            <div class="process-step">2</div>
+          </i>
+        </a>
         <h3>info@vertlette.com</h3>
       </div>
 
       <div>
-        <i class="fa fa-address-card fa-4x process-icon my-2">
-          <div class="process-step">3</div>
-        </i>
-        <h3>Québec (QC), Canada</h3>
+        <a href="<?php echo site_url('/contact'); ?>">
+          <i class="fa fa-address-card fa-4x process-icon my-2">
+            <div class="process-step">3</div>
+          </i>
+        </a>
+        <h3>Québec (QC), G1S-4S3, Canada</h3>
       </div>
     </div>
   </div>
